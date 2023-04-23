@@ -1,0 +1,99 @@
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  margin: 3%;
+  background: linear-gradient(white, lavender);  color: #011f69;
+  font-size: 14px;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+  list-style-type: none;
+  background-color: #011f69;
+  font-size: 14px;
+  list-style-type: none;
+  line-height: 1.75rem;
+  border-radius: 14px;
+}
+
+a {
+  color: lavender;
+}
+
+a:visited {
+  color: grey;
+}
+
+header {
+  background-image: url("/images/IMG_header.jpg");
+  background-size: cover;
+  background-position: center top;
+  padding: 1% 1%;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 4%;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 0 5px lavender;
+  backdrop-filter: blur(5px);
+}
+
+.frame img {
+  border-radius: 50%;
+  height: 180px;
+
+}
+
+header h1, header h2 {
+  color: lavenderblush;
+  font-size: 2.5em;
+  line-height: 10px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: lightgrey;
+
+}
+
+h2 {
+  margin-left: 5%;
+  color: #011f69;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+article {
+  flex-basis: 27%;
+  flex-grow: 1;
+  margin: 2%;
+  background: linear-gradient(lavender, white);
+  border-top-right-radius: 130px;
+  border-bottom-left-radius: 40px;
+  line-height: 2em;
+  padding-right: 20px;
+
+}
+
+footer {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  padding-top: 45px;
+}

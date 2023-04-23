@@ -1,0 +1,79 @@
+/* RESET*/
+html, body {
+    margin: 0%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: lavender;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+    border: 3px double darkblue;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav {
+    display: grid;
+    place-items: center;
+    border: 2px dotted #2980b9;
+    background: #40407a;
+}
+
+section, header {
+    border: 2px solid #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+header {
+    background:   #3498db;
+
+}
+.content {
+    background: #9b59b6;;
+    order: 2;
+}
+.signup  {
+    background: #34495e;
+    height: 100px;
+    order: 3;
+}
+.feature.first {
+    background: #34495e;
+}
+.feature {
+    background: #f1c40f;
+    width: 100%;
+}
+.feature:last-child {
+    background: #1abc9c;
+}
+
+.features{
+    order: 1;
+}
+
+@media screen and (min-width: 992px) {
+    .features {
+        display: flex;
+    }
+    .signup {
+        min-height: auto;
+        height: 100px;
+    }
+}
